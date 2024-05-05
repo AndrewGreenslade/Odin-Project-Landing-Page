@@ -133,6 +133,27 @@ header {
     color: #e5e7eb;
 }
 
+#QuoteSection{
+    width: 75%;
+    flex: 1 1 auto;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    
+}
+
+#QuoteText{
+    font-size: 36px;
+    color: #1f2937;
+    padding: 5rem 2rem 0rem 2rem;
+}
+
+#QuoteAuthor{
+    padding: var(--padding-default);
+    text-align: end;
+    padding: 0rem 5rem 5rem 0rem;
+}
+
 a:link {
     text-decoration: none;
 }
@@ -159,6 +180,11 @@ a:active {
     display: flex;
     flex-direction: row;
 }
+
 .bg-white{
     background-color:#F9FAF8;
+}
+
+.bg-gray{
+    background-color: var(--secondary-text-color);
 }
