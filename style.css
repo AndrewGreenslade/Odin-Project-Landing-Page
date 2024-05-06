@@ -139,7 +139,6 @@ header {
     display: flex;
     margin: 0 auto;
     flex-direction: column;
-    
 }
 
 #QuoteText{
@@ -152,6 +151,43 @@ header {
     padding: var(--padding-default);
     text-align: end;
     padding: 0rem 5rem 5rem 0rem;
+}
+
+#CallToActionSection{
+    padding: 4rem 0rem 4rem 0rem;
+}
+
+#CallToActionBox{
+    width: 75%;
+    flex: 1 1 auto;
+    display: flex;
+    margin: 0 auto;
+    color:#e5e7eb;
+    justify-content: space-evenly;
+    padding: 2rem 0rem 2rem 0rem;
+}
+
+#CallToActionDescription{
+
+}
+
+#CallToActionHeader{
+    width: 75%;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#CallToActionText{
+    
+}
+
+#CallToActionButton{
+    background-color: var(--primary-color-button);
+    color: var(--main-text-color);
+    border-radius: 8px;
+    border-color: #F9FAF8;
+    width: 125px;
 }
 
 a:link {
@@ -187,4 +223,8 @@ a:active {
 
 .bg-gray{
     background-color: var(--secondary-text-color);
+}
+
+.bg-blue{
+    background-color: var(--primary-color-button);
 }
