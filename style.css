@@ -1,5 +1,7 @@
 * {
+    
     /* border: red 1px solid; */
+
     font-family: 'Roboto', sans-serif;
     background-color: var(--main-bg-color);
 }
@@ -8,6 +10,7 @@
     --main-bg-color: #1F2937;
     --main-text-color: #F9FAF8;
     --secondary-text-color: #e5e7eb;
+    --third-text-color: #1f2937;
     --primary-color-button: #3882f6;
     --padding-default: 0.5rem 1rem 0.5rem 0rem;
     --padding-between-content: 6rem;
@@ -44,7 +47,7 @@ body {
 
 #HeroMainText{
     font-size: 48px;
-    color: #F9FAF8;
+    color: var(--secondary-text-color);
     flex-basis: 50%;
     padding: var(--padding-default);
 }
@@ -68,6 +71,7 @@ header {
     flex: 1 1 auto;
     display: flex;
     padding: var(--padding-default);
+    padding-top: 2rem;
     width: 75%;
     margin: 0 auto;
 }
@@ -84,6 +88,7 @@ header {
 #InfoContent{
     padding-bottom: var(--padding-between-content);
     width: 75%;
+    height: 100%;
     flex: 1 1 auto;
     display: flex;
     flex-direction: column;
@@ -94,7 +99,7 @@ header {
 #InfoContent h2{
     font-size: 36px;
     text-align: center;
-    color: #1f2937;
+    color: --third-text-color;
     padding-bottom: var(--padding-between-content);
 }
 
@@ -143,7 +148,7 @@ header {
 
 #QuoteText{
     font-size: 36px;
-    color: #1f2937;
+    color: var(--third-text-color);
     padding: 5rem 2rem 0rem 2rem;
 }
 
