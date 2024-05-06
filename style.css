@@ -1,5 +1,5 @@
 * {
-     border: red 1px solid;
+    /* border: red 1px solid; */
     font-family: 'Roboto', sans-serif;
     background-color: var(--main-bg-color);
 }
@@ -10,7 +10,7 @@
     --secondary-text-color: #e5e7eb;
     --primary-color-button: #3882f6;
     --padding-default: 0.5rem 1rem 0.5rem 0rem;
-    --padding-between-content: 3vw;
+    --padding-between-content: 6rem;
 
 }
 
@@ -78,7 +78,7 @@ header {
     flex: 1 1 auto;
     display: flex;
     justify-content: flex-end;
-    gap: 1rem;
+    gap: 3rem;
 }
 
 #InfoContent{
@@ -167,19 +167,11 @@ header {
     padding: 2rem 0rem 2rem 0rem;
 }
 
-#CallToActionDescription{
-
-}
-
 #CallToActionHeader{
     width: 75%;
     flex: 1 1 auto;
     display: flex;
     flex-direction: column;
-}
-
-#CallToActionText{
-    
 }
 
 #CallToActionButton{
@@ -188,6 +180,20 @@ header {
     border-radius: 8px;
     border-color: #F9FAF8;
     width: 125px;
+}
+
+footer{
+    padding: 2rem 0rem 2rem 0rem;
+    flex: 1 1 auto;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#FooterText{
+    color: var(--main-text-color);
+    text-align: center;
+    width: 100%;
 }
 
 a:link {
